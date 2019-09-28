@@ -1,0 +1,256 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.form-control:focus, .form-control:active {
+  border-color: #ff6200 !important;
+  box-shadow: #ff6200 !important;
+}
+
+.navbar {
+  margin-bottom:0 !important;
+}
+
+.home-header-content{
+  background-color: #f4f4f4 !important;
+  margin-bottom: 60px;
+}
+
+.nav-header-link {
+    float:right;
+}
+
+.nav-subtitle {
+    font-size:36px !important; 
+    color: #444444;
+    letter-spacing: -0.4px;
+    font-family: "ING Me Regular";
+}
+
+.list-title {
+  float: left;
+  font-size: 32px;
+}
+
+.policy-btn{
+background: transparent;
+border: none;
+font-size: 16px;
+cursor: pointer;
+float: right;
+margin: 10px 0;
+}
+
+.policy-sep{
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  float: right;
+  margin: 10px 0;
+  }
+
+.policy-btn:hover {
+  color:orange;
+}
+
+.policy-btn:active {
+  border: none;
+}
+
+.header-title {
+  margin-bottom: 20px;
+}
+
+.user-details{
+  text-align: center;
+  border-bottom: 1px solid orange !important;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.form-group{
+  text-align: left;
+}
+
+/* label{
+  font-style: italic;
+  font-family: cursive;
+  font-weight: bold;
+} */
+
+.add-button{
+position: relative;
+top: 50%;
+}
+
+svg{
+  margin-right: 10px !important;
+
+}
+
+.view-btn{
+background: transparent;
+border: none;
+font-size: 16px;
+cursor: pointer;
+float: right;
+margin: 0;
+color: orange;
+font-weight: bold
+
+}
+
+.header-style{
+  font-weight: 700;
+  padding: 4px !important;
+}
+
+td.header-text{
+  font-size: 16px;
+}
+
+
+ .graph {
+  float: left;
+  font-size: 32px;
+ }
+
+ .modal-title{
+  color: orange;
+ }    
+
+
+ .x-axis{
+   widows: 10px;;
+ }
+
+ .navbar-brand{
+   color: orange;
+   font-size: 20px;
+   font-family: "ING Me Regular" !important; 
+ }
+ .success-page{
+   margin-top: 20px;
+   font-size: 30px;
+ }
+
+ 
+.btn-block{
+  color: #ffffff;
+  background-color: #525199;
+  /* padding: 17px 42px; */
+  font-size: 18px;
+  line-height: 1.3333333;
+  
+}
+.btn-lg{
+padding: 10px !important;
+font-size: 16px !important;
+}
+
+
+.btn-primary{
+  width: 27%;
+  margin: 20px 0 0;
+  padding: 0px;
+}
+
+.title-text{
+  float: left;
+}
+
+ @media (max-width: 480px) { 
+  .navbar-brand {
+    margin: 0 !important;
+  }
+ }
+
+
+ ul.list{
+  list-style: none !important;
+  list-style-type: none;
+}
+
+.list-items ul{
+  list-style: none !important;
+  list-style-type: none;
+}
+
+
+.card {
+  border: none !important;
+}
+
+.card-body{
+  border-right: 1px solid orange;
+}
+
+.card-list{
+  padding: 0 !important;
+}
+
+.add-button{
+  background: none;
+  border: 0;
+}
+
+.err-msg{
+  color: red;
+}
+
+.btn-warning{
+  background: blue !important;
+  color: white !important;
+  margin-top: 30px !important;
+}
+.acc-container{
+  width: 50% !important;
+}
+
+.text-boxx{
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+  .card-body{
+    border-bottom: 1px solid orange;
+    border-right: none;
+    margin: 0 10px !important;
+  }
+
+  .title-text{
+    float: left;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    font-family: "ING Me Regular" !important; 
+  }
+  
+.btn-block{
+    color: #ffffff;
+    background-color: #525199;
+    padding: 17px 42px;
+    font-size: 18px;
+    line-height: 1.3333333;
+}
+
+.btn-primary{
+  width: 100%;
+  margin: 20px 0 0;
+  /* padding: 0px; */
+  padding: 10px !important;
+}
+.btn-lg{
+  padding: 0px !important;
+  font-size: 16px !important;
+}
+}
