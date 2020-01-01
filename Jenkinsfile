@@ -14,7 +14,7 @@ pipeline {
 	 {
          steps {
             // deploy to tomcat
-			sh 'cd $WORKSPACE;chmod 777 build;sudo cp -r build /opt/apache-tomcat-9.0.27/webapps'
+			sh 'cd $WORKSPACE;chmod 777 build;sudo cp -r build /opt/apache-tomcat-9.0.30/webapps'
             
                 }
      }
